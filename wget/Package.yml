@@ -21,58 +21,23 @@ Author information:
 Package Information: 
     # The unique name of the package, preferably undercase letters, numbers
     # and hyphens only
-    Name: "DotStarTemplatePackage"
+    Name: "wget"
 
     # The "real name" of the package. Feel free to use any characters here
-    Friendly Name: "DotStar Template Package"
+    Friendly Name: "GNU Wget"
 
     # A short description
-    Description: "A simple testing package to check whether DotStar works"
+    Description: "A command-line utility for retrieving files using HTTP, HTTPS and FTP protocols."
 
     # Version of the package
-    Version: "1.0.2"
+    Version: "1.19.2"
 
     # Versioning system
     Version System: "SemVer"
 
     # List of supported platforms
     Supported Platforms:
-        - macOS
+        #- macOS
         - Win32
         - Win64
-        - Linux
-
-    Actions:
-        # A list of possible actions that can be utilized against
-        # this package.
-        # 
-        # DEFAULT ACTIONS:
-        # - Run
-        # - Install
-        # - Uninstall
-        # - Compile
-        # 
-        # Each action triggers a script. For example: Running on Windows
-        # triggers `Package.Win.Run.bat`. 
-        # The syntax for the script triggered is:
-        #       Package.{Platform}.{Action}.{bat/ps1/sh}
-        # 
-        # See section `Platforms` for a detailed list of Platforms
-        - Action1
-
-Application Information: 
-    # This section is deprecated and left for compability for versions
-    # lower than 0.1.3
-    Name: "DotStarTemplatePackage"
-    Friendly Name: "DotStar Template Package"
-    Description: "A simple testing package to check whether DotStar works"
-    Version: "1.0.2"
-    Version System: "SemVer"
-    Supported Platforms:
-        - macOS
-        - Win32
-        - Win64
-        - Linux
-
-Dependencies:
-    
+        #- Linux
