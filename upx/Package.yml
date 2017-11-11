@@ -12,7 +12,7 @@ Compilation Information:
         # You can use wildcards (such as *)
         - .git*
         - .vscode*
-        - wget.star
+        - upx.star
 Author information:
     Name: "joachimschmidt557"
     Company: ""
@@ -21,13 +21,13 @@ Author information:
 Package Information: 
     # The unique name of the package, preferably undercase letters, numbers
     # and hyphens only
-    Name: "wget"
+    Name: "upx"
 
     # The "real name" of the package. Feel free to use any characters here
-    Friendly Name: "GNU Wget"
+    Friendly Name: "UPX"
 
     # A short description
-    Description: "A command-line utility for retrieving files using HTTP, HTTPS and FTP protocols."
+    Description: The Ultimate Packer for eXecutables
 
     # Version of the package
     Version: "1.19.2"

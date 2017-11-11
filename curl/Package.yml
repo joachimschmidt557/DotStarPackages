@@ -12,7 +12,7 @@ Compilation Information:
         # You can use wildcards (such as *)
         - .git*
         - .vscode*
-        - wget.star
+        - curl.star
 Author information:
     Name: "joachimschmidt557"
     Company: ""
